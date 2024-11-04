@@ -1,0 +1,241 @@
+body {
+ width:1024px;
+ padding-left: 2rem;
+ padding-right: 2rem;
+ margin-inline: auto;
+ font-family: Arial, sans-serif;
+ stroke-width: none !important;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for all scrollable elements */
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+p,h2,h3 {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0;
+    color: #000;
+    padding-right: 1rem;  
+    padding-left: 1rem;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2.5px solid #d7d7d7;
+}
+.vertical-line {
+    width: 2px; /* Width of the line */
+    height: 80%; /* Height of the line */
+    background-color: #333; /* Color of the line */
+}
+.f_name {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #000;
+}
+.l_name {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+.role_name{
+    font-size: 1.5rem;
+    color: #000;
+}
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact_info p {
+    margin-top:.75rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #555;
+}
+section {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+}
+.left_contianer  {
+    width:75%;
+    border-right: 2.5px solid #d7d7d7;
+    padding-right: 2.5rem;
+    padding-left: 1rem;
+}
+.right_container {
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 2.5rem
+}
+.about {    
+    border-bottom: 2.5px solid gray;
+    padding-bottom: 1rem;
+}
+.about p {
+   letter-spacing: .75px;
+   text-align: justify;
+   line-height: 1.5;
+   font-size: .9rem;
+   font-weight: 500;
+   margin-top: 1.5rem;
+}
+.about h2 {
+    font-size: 1.8rem;
+    line-height: 0;
+}
+.project_title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 15px;
+}
+
+.projects {
+    margin-top: 2rem;
+    position: relative;
+}
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0rem;
+    height: 100%;
+    position: relative;
+}
+
+.projects ::after {
+    content: "";
+    background: black;
+    position: absolute;
+    top: 33px;
+    left: 4px;   
+    height: 100%;
+    width: 2px;
+}
+
+.project_line_2,.project_line_3,.project_line_1,.project_line_4 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #000;
+    top: 18px;
+}
+    
+.project_wrap {
+    padding-left: 1.5rem;
+}
+.skills {
+    border-bottom: 2.5px solid gray;
+    padding-bottom: .5rem; 
+    padding-top: 1rem
+}
+.skills h3 {
+    padding-bottom: .5rem;
+}
+.experience h3 {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+.experience {
+    border-bottom: 2.5px solid gray;
+    padding-bottom: .5rem; 
+}
+
+.education {
+    border-bottom: 2.5px solid gray;
+}
+p ,li{
+    text-align: justify;
+    line-height: 1.25;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: .75px;
+}
+h2 {
+    letter-spacing: .75px;
+    line-height: 1.25;
+    padding-top: .5rem;
+}
+li {
+    margin-top: .28rem;
+}
+
+.technologies p{
+    margin-block:.5rem;
+}
+.tech{
+    font-weight: 700;
+}
+.education {
+    padding-bottom: 1rem;
+}
+.education h3 {
+    padding-block: 1rem;
+}
+.strengths h3 {
+   padding-block: 1rem;
+}
+.strengths {
+    border-bottom: 2.5px solid gray;
+    padding-bottom: 1rem;
+}
+.languages h3 {
+    padding-block: 1rem;
+ }
+
+.languages {
+    /* border-bottom: 2.5px solid gray; */
+    padding-bottom: 1rem;
+}
+
+.hobbies h3 {
+    padding-block: 1rem;
+}
+
+.experience_div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+} 
+
+.craftnotion {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.bullet_remove {
+    list-style-type: none;
+}
+
+.course {
+    letter-spacing: .5px;
+}
