@@ -227,9 +227,14 @@ li {
     margin-bottom: 0px;
 } 
 
-.craftnotion {
+.craftnotion_name {
     font-weight: 600;
     font-size: 1.10rem;
+}
+
+.craftnotion {
+    font-weight: 600;
+    font-size: 1.05rem;
 }
 
 .bullet_remove {
